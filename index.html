@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <title>Test Task</title>
+        <script
+            type="module"
+            crossorigin
+            src="assets/index-c3bb30ef.js"
+        ></script>
+        <link rel="stylesheet" href="assets/index-49a63a4a.css" />
+    </head>
+    <body>
+        <div id="app">
+            <div class="wrapper">
+                <div class="header__modile">
+                    <img src="images/burger-mobile.png" />
+                    <img src="images/Frame name.png" />
+                    <img src="images/icon-search.png" />
+                </div>
+                <div class="header">
+                    <div class="header__item">
+                        <div class="catalog">
+                            <img src="images/catalog.png" />
+                        </div>
+                        <div class="logo">
+                            <img src="images/logo.png" />
+                        </div>
+                        <div class="search">
+                            <input type="text" placeholder="Я ищу..." />
+                            <img src="images/Search.png" alt="" />
+                        </div>
+                        <div class="menu">
+                            <div class="profile">
+                                <img src="images/profile.png" />
+                            </div>
+                            <div class="basket">
+                                <img src="images/basket.png" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="medium">
+                    <div class="medium__left">
+                        <div class="medium__basket">
+                            <h3>Корзина</h3>
+                            <div class="medium__select">
+                                <input type="checkbox" /><a>Выбрать всё</a>
+                                <img src="images/icon-20.png" alt="" />
+                            </div>
+                        </div>
+                        <hr />
+                        <div class="medium__basket__item">
+                            <input type="checkbox" />
+                            <div class="medium__basket__container">
+                                <img
+                                    src="images/Frame 1.png"
+                                    class="medium__basket__foto"
+                                />
+                                <div class="medium__basket__description">
+                                    <p class="medium__basket__name">
+                                        Футболка UZcotton мужская
+                                    </p>
+                                    <p class="medium__basket__color">
+                                        Цвет: белый <a>Размер: 56</a>
+                                    </p>
+                                    <a class="medium__basket__wb"
+                                        >Коледино WB</a
+                                    >
+                                    <a class="medium__basket__wb mobile"
+                                        >OOO Вайлдберриз&nbsp;<img
+                                            src="/images/!.png"
+                                            alt=""
+                                    /></a>
+                                </div>
+                                <div class="medium__basket__like">
+                                    <div>
+                                        <button onclick="decrease()">-</button>
+                                        <p id="number">1</p>
+                                        <button onclick="increase()">+</button>
+                                    </div>
+                                    <pre>Осталось 2 шт.</pre>
+                                    <span
+                                        ><img src="images/like.png" />
+                                        <img src="images/delete.png" />
+                                    </span>
+                                </div>
+                                <div class="medium__basket__price">
+                                    <h3>
+                                        522
+                                        <small>сом</small>
+                                    </h3>
+                                    <a>1051 сом</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="medium__basket__item">
+                            <input type="checkbox" />
+                            <div class="medium__basket__container">
+                                <img
+                                    src="images/Frame 2.png"
+                                    class="medium__basket__foto"
+                                />
+                                <div class="medium__basket__description">
+                                    <p class="medium__basket__name">
+                                        Силиконовый чехол картхолдер <br />
+                                        (отверстия) для карт, прозрачный <br />
+                                        кейс бампер на Apple iPhone XR, <br />
+                                        MobiSafe
+                                    </p>
+                                    <p class="medium__basket__color">
+                                        Цвет: прозрачный
+                                    </p>
+                                    <a class="medium__basket__wb"
+                                        >Коледино WB</a
+                                    >
+                                    <a class="medium__basket__wb mobile"
+                                        >OOO Мегапрофстиль&nbsp;<img
+                                            src="images/!.png"
+                                            alt=""
+                                    /></a>
+                                </div>
+                                <div class="medium__basket__like">
+                                    <div>
+                                        <button onclick="decrease()">-</button>
+                                        <p id="number">1</p>
+                                        <button onclick="increase()">+</button>
+                                    </div>
+                                    <span
+                                        ><img src="images/like.png" />
+                                        <img src="images/delete.png" />
+                                    </span>
+                                </div>
+                                <div class="medium__basket__price">
+                                    <h4>
+                                        2 100 047
+                                        <small>сом</small>
+                                    </h4>
+                                    <a>2 300 047 сом</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div
+                            class="medium__basket__item medium__basket__item__last"
+                        >
+                            <input type="checkbox" />
+                            <div class="medium__basket__container">
+                                <img
+                                    src="images/Frame 3.png"
+                                    class="medium__basket__foto"
+                                />
+                                <div class="medium__basket__description">
+                                    <p class="medium__basket__name">
+                                        Карандаши цветные Faber-Castell <br />
+                                        "Замок", набор 24 цвета, <br />
+                                        заточенные, шестигранные, <br />
+                                        Faber-Castell
+                                    </p>
+                                    <a class="medium__basket__wb"
+                                        >Коледино WB</a
+                                    >
+                                    <a class="medium__basket__wb mobile"
+                                        >OOO Вайлдберриз&nbsp;<img
+                                            src="images/!.png"
+                                            alt=""
+                                    /></a>
+                                </div>
+                                <div class="medium__basket__like">
+                                    <div>
+                                        <button onclick="decrease()">-</button>
+                                        <p id="number">1</p>
+                                        <button onclick="increase()">+</button>
+                                    </div>
+                                    <pre>Осталось 2 шт.</pre>
+                                    <span
+                                        ><img src="images/like.png" />
+                                        <img src="images/delete.png" />
+                                    </span>
+                                </div>
+                                <div class="medium__basket__price">
+                                    <h3>
+                                        494
+                                        <small>сом</small>
+                                    </h3>
+                                    <a>950 сом</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="medium__absent">
+                            <div>
+                                <h3>Отсутствуют · 3 товара</h3>
+                                <img src="images/icon-20.png" />
+                            </div>
+                            <hr />
+                            <div class="medium__absent__item">
+                                <img
+                                    src="images/Frame 1.png"
+                                    class="medium__basket__foto"
+                                />
+                                <div class="medium__absent__description">
+                                    <p>Футболка UZcotton мужская</p>
+                                    <a class="medium__absent__color">
+                                        Цвет: белый
+                                        <pre>Размер:56</pre>
+                                    </a>
+                                </div>
+                                <div class="medium__absent__like">
+                                    <img src="images/like.png" />
+                                    <img src="images/delete.png" />
+                                </div>
+                            </div>
+                            <div class="medium__absent__item">
+                                <img
+                                    src="assets/Frame 2-522f2e3e.png"
+                                    class="medium__basket__foto"
+                                />
+                                <div class="medium__absent__description">
+                                    <p>
+                                        Силиконовый чехол картхолдер <br />
+                                        (отверстия) для карт, прозрачный кейс
+                                        <br />
+                                        бампер на Apple iPhone XR, MobiSafe
+                                    </p>
+                                    <a class="medium__absent__color">
+                                        Цвет: прозрачный
+                                    </a>
+                                </div>
+                                <div class="medium__absent__like">
+                                    <img src="images/like.png" />
+                                    <img src="images/delete.png" />
+                                </div>
+                            </div>
+                            <div class="medium__absent__item">
+                                <img
+                                    src="assets/Frame 3-32cc4c87.png"
+                                    class="medium__basket__foto"
+                                />
+                                <div class="medium__absent__description">
+                                    <p>
+                                        Карандаши цветные Faber-Castell <br />
+                                        "Замок", набор 24 цвета, заточенные,<br />
+                                        шестигранные, Faber-Castell
+                                    </p>
+                                </div>
+                                <div class="medium__absent__like">
+                                    <img src="images/like.png" />
+                                    <img src="images/delete.png" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="medium__delivery">
+                            <div class="medium__delivery__way">
+                                <h2>Способ доставки</h2>
+                                <button>Изменить</button>
+                            </div>
+                            <div class="medium__delivery__extradition">
+                                <h4>Пункт выдачи</h4>
+                                <span class="medium__delivery__address">
+                                    <p>
+                                        Бишкек, улица Ахматбека Суюмбаева, 12/1
+                                    </p>
+                                    <a
+                                        ><img src="images/Frame 3849.png" />
+                                        &nbsp; Ежедневно с 10 до 21
+                                    </a>
+                                </span>
+                            </div>
+                            <div class="medium__delivery__extradition">
+                                <h4>Стоимость доставки</h4>
+                                <p>Бесплатно</p>
+                            </div>
+                            <div class="medium__delivery__extradition">
+                                <h4>5—6 февраля</h4>
+                                <span class="medium__delivery__fotos"
+                                    ><img src="images/Frame 1.png" />
+                                    <img src="images/Frame 2.png" />
+                                    <img src="images/Frame 3.png" />
+                                </span>
+                            </div>
+                            <div class="medium__delivery__extradition last">
+                                <h4>7—8 февраля</h4>
+                                <span class="medium__delivery__fotos"
+                                    ><img src="images/Frame 2.png"
+                                /></span>
+                            </div>
+                            <div class="medium__delivery__free">
+                                <img src="images/free-icon.png" />
+                                <p>
+                                    Обратная доставка товаров на склад при
+                                    отказе — <a>бесплатно</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="medium__pay">
+                            <div class="medium__pay__way">
+                                <h2>Способ оплаты</h2>
+                                <button>Изменить</button>
+                            </div>
+                            <img src="images/Frame 3853.png" />
+                            <p>Спишем оплату с карты при получении</p>
+                        </div>
+                        <div class="medium__recipient">
+                            <h2>Получатель</h2>
+                            <div class="medium__recipient__name">
+                                <span>
+                                    <input
+                                        type="text"
+                                        placeholder="Имя"
+                                    /><input
+                                        type="text"
+                                        placeholder="Фамилия"
+                                    />
+                                </span>
+                            </div>
+                            <div class="medium__recipient__email">
+                                <span
+                                    ><input
+                                        type="text"
+                                        placeholder="Почта" /></span
+                                ><span
+                                    ><input
+                                        class="medium__recipient__second"
+                                        type="text"
+                                        placeholder="+7 988 123-45-67"
+                                    />
+                                    <a>Телефон</a>
+                                </span>
+                                <span>
+                                    <input
+                                        type="text"
+                                        placeholder="&nbsp;ИНН"
+                                    />
+                                    <a>Для таможенного оформления</a></span
+                                >
+                            </div>
+                        </div>
+                    </div>
+                    <div class="medium__right">
+                        <div class="medium__total">
+                            <div class="medium__total__item">
+                                <h3>Итого</h3>
+                                <h3>2 101 063 <small>сом</small></h3>
+                            </div>
+                            <div class="medium__total__item">
+                                <p>203 товара</p>
+                                <p>2 302 048 сом</p>
+                            </div>
+                            <div class="medium__total__item">
+                                <p>Скидка</p>
+                                <p>-200 985 сом</p>
+                            </div>
+                            <div class="medium__total__item">
+                                <p>Доставка</p>
+                                <p>Бесплатно</p>
+                            </div>
+                            <div class="medium__total__item third">
+                                <div>
+                                    <h3>Доставка в пункт выдачи</h3>
+                                    <img src="images/edit.png" alt="" />
+                                </div>
+                                <div class="medium__total__text">
+                                    <p>
+                                        Бишкек, улица Ахматбека Суюмбаева, 12/1
+                                    </p>
+                                </div>
+                                <div class="medium__total__text">
+                                    <p>5–8 фев</p>
+                                </div>
+                            </div>
+                            <div class="medium__total__free">
+                                <img src="images/free-icon.png" />
+                                <p>
+                                    Обратная доставка товаров на склад при
+                                    отказе — <a>бесплатно</a>
+                                </p>
+                            </div>
+                            <div class="medium__total__pay">
+                                <h3>Оплата картой</h3>
+                                <img src="images/edit.png" alt="" />
+                            </div>
+                            <div class="medium__total__card">
+                                <img src="images/pay.png" />
+                            </div>
+                            <div class="medium__total__cancel">
+                                <div>
+                                    <input type="checkbox" /><a
+                                        >Списать оплату сразу</a
+                                    >
+                                </div>
+                                <div>
+                                    <p>Спишем оплату с карты при получении</p>
+                                </div>
+                            </div>
+                            <div class="medium__total__btn">
+                                <button>Заказать</button>
+                            </div>
+                            <div class="medium__total__agree">
+                                <img src="images/agree.png" />
+                                <a
+                                    >Соглашаюсь с правилами пользования торговой
+                                    площадкой и возврата</a
+                                >
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer">
+                    <p>© 2022 ООО «Товары и точка»</p>
+                </div>
+                <div class="footer__mobile">
+                    <img src="images/main.png" />
+                    <img src="images/catalogm.png" />
+                    <img src="images/cart.png" />
+                    <img src="images/favorites.png" />
+                    <img src="images/profile m.png" />
+                </div>
+            </div>
+        </div>
+        <script>
+            let number = 0
+
+            function increase() {
+                number++
+                document.querySelector('#number').innerHTML = number
+            }
+
+            function decrease() {
+                number--
+                document.querySelector('#number').innerHTML = number
+            }
+        </script>
+    </body>
+</html>
